@@ -1,7 +1,3 @@
----
-title: General Writing Guidelines
----
-
 # General Writing Guidelines
 
 ## User Testing
@@ -100,7 +96,13 @@ google forms
 - "Now you know ..." at the end of a paragraph or page
 
 - Tone
-    - rust 
+    - rust
+    - fff
+    - frustrated users - jokes are mean
+    - 
+    
+- Beware of of phrasal verbs - "Check out" is informal and it is also not understood for non-English speakers and can create ambiguity
+  
 - Consistant use of hyphenating nouns (hands on, hands-on), 2-word phrasal verbs (checkout vs check out)
 
 - Consistence use of login logon log on longged in or on
@@ -134,6 +136,4 @@ google forms
 - Should be focused on one purpose - to treat a full subject, to teach someone how to do something, explain a concept
 - Should not do too much
 - Should know its purpose, stick to it, and should know the limits of how much to include and whether the page needs to be divided into 2 or more
-
-
 
