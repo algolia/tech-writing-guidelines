@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+- custom_class = current_page.destination_path.gsub('/index.html', '').split('/')[1]
+%html{class: "page-#{custom_class}"}
+  %head
+
+    %title
+      - if content_for?(:title)
+        = yield_content :title
+      - else
+        - if respond_to?(:language) and not language.nil?
+          - current_page.data.title = current_page.data.title.gsub('%language%', language.code)
+
+        = current_page.data.title || 'Algolia'
+      
+    = stylesheet_link_tag '//fonts.googleapis.com/css?family=Open+Sans:300,400,600'
+    = stylesheet_link_tag 'all'
+
+    %meta{name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0'}
+    %meta{:content => '#ffffff', :name => 'msapplication-TileColor'}
+    %meta{:content => '/ms-icon-144x144.png', :name => 'msapplication-TileImage'}
+    %meta{:content => '#ffffff', :name => 'theme-color'}
+
+    - if current_page.data.description
+      %meta{:content => current_page.data.description, :name => 'description'}
+
+    - if current_page.data.title
+      %meta{:content => current_page.data.title, :name => 'title'}
+
+    = partial 'partials/favicon'
+
+    %link{:rel => 'canonical', :href => "/#{current_page.destination_path.gsub('/index.html', '')}/"}
+
+    %meta{:"http-equiv" => "X-UA-Compatible", :content => "IE=edge"}
+
+  %body
+    = partial 'partials/header'
+    %main.doc-wrapper
+      = yield
+
+    - if content_for?(:footer)
+      = yield_content :footer
+
+    = javascript_include_tag 'all', :async => true
+    = javascript_include_tag 'anchors'

@@ -234,8 +234,8 @@ Who comes to the docs?
 
 </section>
 
-[General guidelines](guidelines/drafts/tech-writing-guidelines.md)
+[General guidelines](source/drafts/tech-writing-guidelines.md)
 
-[Tutorial writing guidelines](guidelines/drafts/tutorial-writing-guidelines.md)
+[Tutorial writing guidelines](source/drafts/tutorial-writing-guidelines.md)
 
 <section>

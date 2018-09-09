@@ -1,0 +1,41 @@
+- current_tree = sitemap_tree.from_resource(current_page)
+- current_page.data.position = current_tree.get_position
+- page_content = render_current_page({render_toc: false})
+- section = current_tree.get_parent.get_url_part || 'Home'
+- tree = sitemap_tree
+
+- content_for :title, "#{current_page.data.title.gsub(/<\/?[^>]*>/, '')} | #{unslug(section)} | Algolia Writing Guidelines"
+
+- content_for :doc_toc do
+  %aside.content-navbar
+    .navbar-wrapper
+      .navbar-doc
+        %div
+          %h2.muted
+            Guides
+        %ul.navbar-links
+          %li.navbar-links-item.pos-rel
+            %a{href: '/'}
+              Home
+          - tree.get_children.each do |section|
+            - guides = section.flatten
+            - if guides.size > 0
+              %li.navbar-links-item.pos-rel
+                %span
+                  = unslug(section.get_url_part)
+                %ul
+                  - guides.each do |guide|
+                    - is_current_concept = current_page.destination_path.include?(guide.get_url)
+                    %li.navbar-links-item.pos-rel{class: "#{is_current_concept ? 'active' : ''}"}
+                      = link_to "/#{guide.get_url}/", class: "#{is_current_concept ? 'text-bold' : ''}" do
+                        = guide.get_val.metadata[:page][:title]
+
+- content_for :right_sidebar do
+  .right-navbar-wrapper
+    = partial 'partials/table_of_content_right', {locals: {page_content: page_content, scrollspy_full: current_page.data.scrollspy_full || false}}
+
+= wrap_layout :content_page do
+  = yield
+
+  .privacy-policy
+    © Algolia - #{link_to 'Privacy Policy', '/policies/privacy'}

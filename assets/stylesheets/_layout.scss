@@ -1,0 +1,16 @@
+// ------------- GLOBAL ------------- //
+
+* {
+  outline: none;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  font-weight: 400;
+  color: $doc-color;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
