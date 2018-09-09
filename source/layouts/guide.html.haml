@@ -14,6 +14,9 @@
           %h2.muted
             Guides
         %ul.navbar-links
+          %li.navbar-links-item.pos-rel
+            %a{href: '/'}
+              Home
           - tree.get_children.each do |section|
             - guides = section.flatten
             - if guides.size > 0

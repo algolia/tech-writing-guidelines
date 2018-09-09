@@ -1,6 +1,5 @@
 require 'better_errors'
 require 'extensions/custom_extension'
-require 'lib/php_code_blocks'
 require 'lib/hash_ostruct'
 require 'lib/middleman_optims'
 require 'dotenv'

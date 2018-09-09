@@ -1,3 +1,7 @@
+---
+title: Tutorial Writing Guidelines draft
+---
+
 # Algolia Docs - Tutorials Guidelines
 
 ## Writing style

@@ -49,7 +49,6 @@ class CustomExtension < Middleman::Extension
 
       resource.destination_path = resource.destination_path.gsub(/\/[0-9]+?-/, '/')
       resource.destination_path = resource.destination_path.gsub(/^[0-9]+?-/, '')
-      p(resource.destination_path)
       resource.add_metadata({locals: {render_toc: true}})
 
       data_file = resource.file_descriptor.full_path.to_s.gsub(/([^\.]+?)\..*?$/, '\1.yml')

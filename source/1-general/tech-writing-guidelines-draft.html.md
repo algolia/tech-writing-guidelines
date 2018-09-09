@@ -1,4 +1,7 @@
-``
+---
+title: tech writing guidelines draft
+---
+
 <section>
 This doc is used by the documentation team as a guide for writing tech content. It is not yet finished - Please excuse its confused formatting and structure.
 
