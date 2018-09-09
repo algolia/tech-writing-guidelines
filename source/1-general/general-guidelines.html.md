@@ -32,6 +32,12 @@ On-boarding Documentation
 ## UI Design
 - Collaboration between Tech Writers and Designers
 
+- Readabilty is key - high contrast, choices must enhance readabilty
+
+- Follow company's branding
+
+- Number of characters per line (66 characters) - see typewolf website
+
 - Bullet points
 
   - periods or not?
