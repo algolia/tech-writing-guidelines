@@ -86,6 +86,7 @@ google forms
 
 - Languages - german, russian, english - different rules
     - Passive / formal for german 
+    - Translation issues
 
 - Imperative
 
@@ -94,8 +95,8 @@ google forms
 
 - "Now you know ..." at the end of a paragraph or page
 
-
-
+- Tone
+    - rust 
 - Consistant use of hyphenating nouns (hands on, hands-on), 2-word phrasal verbs (checkout vs check out)
 
 - Consistence use of login logon log on longged in or on
@@ -105,9 +106,9 @@ google forms
 - Sentences should be simple, straightfoward
 - Sentences should generally have only one idea, purpose, and meaning; but it is acceptable to add implications, such as the importance of the subject, whether it is recommended or not, if it is dangerous, serious, the potential impacts
 - Sentence Structure
-    - Same structure throughout
-    - Pattern for sentences ("In this window, on this button, ...")
-    - Tutorials, how-tos
+    - Same structure throughout?
+    - Pattern for sentences ("In this window, on this button, ...")?
+    - Tutorials, how-tos - more patterened than concepts?
     
 ### Word-choice
 
