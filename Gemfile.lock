@@ -46,7 +46,7 @@ GEM
       multipart-post (>= 1.2, < 3)
     fast_blank (1.0.0)
     fastimage (2.1.0)
-    ffi (1.9.18)
+    ffi (1.9.25)
     formatador (0.2.5)
     google-api-client (0.8.6)
       activesupport (>= 3.2)
