@@ -15,7 +15,19 @@ As you write, consider the following:
 
 ## ARIA and alternative text guidelines
 
-We should definitely have rules for this.
+Accessible Rich Internet Applications (ARIA) is a specification for creating content and applications which are accessible to people with disabilities.
+
+### What is ARIA
+
+Refer to the [W3C rules for ARIA](https://www.w3.org/TR/using-aria/).
+
+### When to use ARIA tags
+
+### When to use alt tags
+
+It's essential to use alternative text with photos. Those who are visually impaired and rely on screen readers will need the alt attributes to understand what is in an on-page image.
+
+A bad example of alt text is: "this is a screenshot of our website".
 
 ## Guidelines for using images
 
