@@ -1,0 +1,68 @@
+{
+  "name": "algolia-doc",
+  "version": "1.0.0",
+  "description": "Algolia Tech guidelines",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "npm run assets:delete-tmp && npm run assets:copy-images && NODE_ENV=development ./node_modules/webpack/bin/webpack.js --watch -d --color",
+    "build": "npm run assets:copy-images && MANIFEST=`ruby generate_manifest.rb` NODE_ENV=production ./node_modules/webpack/bin/webpack.js --bail -p",
+    "assets:copy-images": "mkdir -p .tmp/dist/assets/images && cp -r ./assets/images/* ./.tmp/dist/assets/images/",
+    "assets:delete-tmp": "rm -r .tmp",
+    "test": "npm run lint",
+    "lint": "eslint . --ext es6",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "lint-staged": {
+    "*.es6": [
+      "npm run lint:fix",
+      "git add"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/algolia/doc.git"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "css-loader": "^1.0.0",
+    "eslint": "^4.1.1",
+    "eslint-config-algolia": "^12.0.0",
+    "eslint-config-prettier": "^2.3.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-prettier": "^2.1.2",
+    "file-loader": "^1.1.11",
+    "husky": "^0.13.3",
+    "if-env": "^1.0.4",
+    "lint-staged": "^3.4.1",
+    "mini-css-extract-plugin": "^0.4.1",
+    "node-sass": "^4.9.2",
+    "prettier": "^1.5.2",
+    "replace": "^1.0.0",
+    "sass-loader": "^7.0.3",
+    "ttf2woff": "^2.0.1",
+    "ttf2woff2": "^2.0.3",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/algolia/doc/issues"
+  },
+  "homepage": "https://github.com/algolia/doc#readme",
+  "dependencies": {
+    "algolia-filters-js-syntax-validator": "^1.0.1",
+    "algoliasearch": "^3.29.0",
+    "clipboard": "^2.0.1",
+    "dotenv-webpack": "^1.5.7",
+    "hasha": "^3.0.0",
+    "hogan.js": "^3.0.2",
+    "instantsearch.js": "^2.8.0",
+    "jquery": "^3.3.1",
+    "prismjs": "^1.15.0"
+  }
+}

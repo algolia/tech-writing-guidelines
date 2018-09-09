@@ -1,0 +1,16 @@
+.navbar-doc.pos-rel.scrollspy
+  - unless defined?(title) && !title
+    %div
+      %h2 On this page
+  %ul.navbar-links.scrollable{:class => ("navbar-links-no-title" if defined?(title) && !title)}
+    - toc = get_scrollspy_toc(page_content, { show_subheadings: scrollspy_full || false })
+    - toc.each do |level|
+      %li.navbar-links-item.pos-rel
+        %a{href: "##{level[:anchor]}"}
+          = level[:value].html_safe
+        - if level[:children].size > 0
+          %ul.navbar-sublinks.hidden
+            - level[:children].each do |sublevel|
+              %li.navbar-links-item.pos-rel.no-margin
+                %a{href: "##{sublevel[:anchor]}"}
+                  = sublevel[:value].html_safe  

@@ -1,0 +1,27 @@
+// ------------- RESPONSIVE BREAKPOINTS MAP ------------- //
+
+$breakpoints: ( 
+    large : 1280px, 
+    medium: 1025px, 
+    small : 640px,
+    mobile : 380px 
+);
+
+// ------------- MEDIA QUERIES MIXIN ------------- //
+
+@mixin media($breakpoint, $breakpoints-map: $breakpoints) {
+
+    @if map-has-key($breakpoints-map, $breakpoint) {
+        $breakpoint: map-get($breakpoints-map, $breakpoint);
+
+        @media (max-width: $breakpoint) {
+            @content;
+        }
+    }
+
+    @else {
+        @media (max-width:$breakpoint) {
+            @content;
+        }
+    }
+}

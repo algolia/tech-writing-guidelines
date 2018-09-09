@@ -1,0 +1,12 @@
+= wrap_layout :layout do
+  .doc-wrapper-content
+    .flex-container.pos-rel
+      - if content_for?(:doc_toc)
+        = yield_content :doc_toc
+
+      %main.content-inner.content-container.m-l-r-auto
+        = yield
+      - if content_for?(:right_sidebar)
+        .content-right-sidebar.pos-rel
+          = yield_content :right_sidebar
+      .content-results-placeholder

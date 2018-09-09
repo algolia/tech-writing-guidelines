@@ -1,0 +1,33 @@
+@import "../base";
+
+.anchor-container {
+  &:hover {
+    a.anchor-link:not(.linkable) {
+      display: inline-block;
+    }
+  }
+
+  a.anchor {
+    position: absolute;
+    height: 120px; /*same height as header*/
+    margin-top: -120px; /*same height as header*/
+    visibility: hidden;
+    top: 0;
+    left: 0;
+  }
+
+  a.anchor-link:not(.linkable) {
+    color: $link-color;
+    display: none;
+  }
+}
+
+
+section.heading.anchor-container {
+    &:hover {
+      > a.anchor-link {
+        display: none;
+      }
+    }
+}
+

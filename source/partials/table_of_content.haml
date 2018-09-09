@@ -1,0 +1,17 @@
+.table-of-contents.pos-rel
+  %h5.muted On this page
+  .intro-content.flex-container.flex-space-between
+    .toc-wrapper
+      - if render_toc
+        %ul
+          - toc = get_guide_toc(page_content)
+          - toc.each do |item|
+            %li
+              = link_to "##{item[:anchor]}" do
+                = item[:value]
+              - if item[:children].size > 0
+                %ul
+                  - item[:children].each do |child_item|
+                    %li
+                      = link_to "##{child_item[:anchor]}" do
+                        = child_item[:value]

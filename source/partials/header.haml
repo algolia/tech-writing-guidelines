@@ -1,0 +1,17 @@
+%nav.header-wrapper.pos-rel.z-2
+  .header-container.flex-container.flex-align-center
+    .header-nav.flex-container.flex-align-center
+      .header-title
+        Algolia tech writing guidelines
+
+    .header-container-right.flex-container
+      .header-search.flex-container.flex-align-center
+        .header-search-input.pos-rel
+          %input#docsearch.fill-white.data-hj-whitelist{autocomplete: 'off', autocorrect: 'off', autocapitalize: 'none', spellcheck: 'false', required: 'required'}
+          .header-search-input-placeholder.flex-container.flex-align-center
+            .header-search-input-placeholder-text
+              Search in the guides
+          %span.glass
+            = inline_svg('icons/glass.svg')
+          %span.clear
+            = inline_svg('icons/clear.svg')
