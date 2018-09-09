@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "npm run assets:delete-tmp && npm run assets:copy-images && NODE_ENV=development ./node_modules/webpack/bin/webpack.js --watch -d --color",
-    "build": "npm run assets:copy-images && MANIFEST=`ruby generate_manifest.rb` NODE_ENV=production ./node_modules/webpack/bin/webpack.js --bail -p",
+    "build": "npm run assets:copy-images && NODE_ENV=production ./node_modules/webpack/bin/webpack.js --bail -p",
     "assets:copy-images": "mkdir -p .tmp/dist/assets/images && cp -r ./assets/images/* ./.tmp/dist/assets/images/",
     "assets:delete-tmp": "rm -r .tmp",
     "test": "npm run lint",
