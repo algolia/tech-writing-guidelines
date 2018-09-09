@@ -70,14 +70,3 @@ In the same line, you also can include a **What's next** section which includes 
 ## Mixed media
 
 ## Words to avoid
-
-
-## General writing guidelines
-
-## Assumptions, Prerequisites & Knowledge level
-
-## Code
-
-## Mixed media
-
-## Words to avoid
