@@ -2,7 +2,7 @@
 
 This resource is intended to help creators develop accessible products and content, however it is far from the only guideline. When in doubt, refer to the standards set by [W3C](http://www.w3.org/standards/webdesign/accessibility).
 
-Our content should be usable for the widest possible audience. This does not mean that everyone will understand every topic. However, writing with accessibility standards does not mean just making content easy to understand. It also means considering the organization of content to guide readers (be it visually or via screen readers, keyboard navigation, or a Braille interface).
+Content should be usable for the widest possible audience. This does not mean that everyone will understand every topic. However, writing with accessibility standards does not mean just making content easy to understand. It also means considering the organization of content to guide readers (be it visually or via screen readers, keyboard navigation, or a Braille interface).
 
 There are a number of [additional resources](#additional-resources) from which this guide was sourced.
 
