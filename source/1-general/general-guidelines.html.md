@@ -154,11 +154,22 @@ Page design an include columns - 2-columns on the same page
 
 ## Kinds of Pages
 
+- Use Case-centered pages
+
+- User Interface
+    - 
+
+- New users need a lot of things explained even if it seems obvious
+    - This is a tutorial
+    - Write a general procedure and then smaller sattelite pages
+    
+- Advanced users don't want to be overloaded
+
 ### Release Notes
 - Very Formatted, structured - for the purpose 
 
 ### How-To
-- 
+- Specific subject
 
 ### References
 - 
