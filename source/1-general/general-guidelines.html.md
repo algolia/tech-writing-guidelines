@@ -132,6 +132,8 @@ google forms
 
 ### Pages
 
+"Every page is page one", Author: Mark Baker
+
 - Should be self-contained
 - Should be focused on one purpose - to treat a full subject, to teach someone how to do something, explain a concept
 - Should not do too much
