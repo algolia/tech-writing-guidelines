@@ -1,12 +1,13 @@
 # General Writing Guidelines
 
 ## User Testing
-    - Google analytics
-    - HotJar
-    - Actual feedback
-    - Adding a feedback button to the bottom page
-    - integrating Discourse directly into docs
-    - Other way - +user testing reels that the app is not a good interface, is that a documentation question? or only a software team problem?
+
+- Google analytics
+- HotJar
+- Actual feedback
+- Adding a feedback button to the bottom page
+- integrating Discourse directly into docs
+- Other way - +user testing reels that the app is not a good interface, is that a documentation question? or only a software team problem?
 
 ## Media
 
@@ -27,8 +28,6 @@ Communication
 
 On-boarding Documentation
 - Handbook
-
-
 
 ## UI Design
 - Collaboration between Tech Writers and Designers
