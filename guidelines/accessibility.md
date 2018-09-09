@@ -19,8 +19,6 @@ Use heading levels to communicate the hierarchy of content. Emphasize important 
 
 Directional terms such as left, right, up, down, above, and below are not useful for those who use screen-readers. If you must use directional terms, provide additional information about the location such as "title bar" or "dialog box."
 
-Refer to our [text style and UI guidelines](#text-style-and-ui) for information on links, headers, and images.
-
 ### Additional resources
 
 + [W3C accessibility guide](http://www.w3.org/standards/webdesign/accessibility)
