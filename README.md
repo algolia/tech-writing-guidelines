@@ -1,4 +1,5 @@
 # tech-writing-guidelines
+
 Tech writing guidelines
 
 <section class="full-toc">
@@ -25,6 +26,7 @@ Tech writing guidelines
 - Good will
 
 - Willingness to (sometimes) read a sentence more than once
+
   - but this requires that our writing style is easy to read - that the second reading is done only because the reader is reading something they didn't know beforehand, or the subject is inherently complex and requires some thought, or the point being made is so important that the writing indicates that the reader should remember or do this
 
 - Some hands-on efforts at copying code, seeing how things work
@@ -41,13 +43,14 @@ Tech writing guidelines
 The Docs must be readable / useable by everyone who starts reading / using it.
 
 Who comes to the docs?
-  - non-technical people
-  - junior-level beginners to the subject
-  - senior-level beginners to the subject
-  - experienced with the subject
-  - non-anglaphones
-  - people in a rush
-  - people who have time to read
+
+- non-technical people
+- junior-level beginners to the subject
+- senior-level beginners to the subject
+- experienced with the subject
+- non-anglaphones
+- people in a rush
+- people who have time to read
 
 ### Complete / thorough
 
@@ -62,22 +65,27 @@ Who comes to the docs?
 ### Clear and Unambiguous
 
 #### Sentences
+
 - Sentences should be simple, straightfoward
 - Sentences should generally have only one idea, purpose, and meaning; but it is acceptable to add implications, such as the importance of the subject, whether it is recommended or not, if it is dangerous, serious, the potential impacts
 
 #### Word-choice
+
 - Word-choice must be simple, well-defined, universally understood, consistent throughout
 
 #### Paragraphs
+
 - Paragraphs should be short and contain a single subject or a single aspect of a larger subject, and it should have a clear beginning and end
 
 #### Pages
+
 - Should be self-contained
 - Should be focused on one purpose - to treat a full subject, to teach someone how to do something, explain a concept
 - Should not do too much
 - Should know its purpose, stick to it, and should know the limits of how much to include and whether the page needs to be divided into 2 or more
 
 #### Sections
+
 - Should be limited if not removed all together
 
 ### Not Disjointed
@@ -105,10 +113,10 @@ Who comes to the docs?
 - Consistence use of login logon log on longged in or on
 
 - Jargon
+
   - When, when not, if ever?
 
 - Acronyms
-
 
 </section>
 
@@ -117,12 +125,15 @@ Who comes to the docs?
 ## Styling Guidelines
 
 - Examples
+
   - All pages with examples should start with the most simple before getting more complex
 
 - Bullet points
+
   - periods or not?
 
 - hyperlink styling
+
   - punctuation as part of the link or not?
 
 - Bolding
@@ -137,6 +148,7 @@ Who comes to the docs?
 ## Overall Guidelines
 
 - "Reader" or "User" of the docs?
+
   - Do we read or use the docs?
 
 - Sidebar on the left side?
@@ -148,8 +160,6 @@ Who comes to the docs?
 - Hover over
 
 - Hide/show divs
-
-
 
 </section>
 
@@ -172,8 +182,6 @@ Who comes to the docs?
 <section>
 
 ## Code Blocks - dos and donts
-
-
 
 </section>
 
@@ -222,11 +230,12 @@ Who comes to the docs?
 </section>
 <section>
 
-##
+## Exisiting drafts
 
 </section>
+
+[General guidelines](guidelines/tech-writing-guidelines-draft.md)
+
+[Tutorial writing guidelines](guidelines/tutorial-writing-guidelines-draft.md)
+
 <section>
-
-##
-
-</section>
