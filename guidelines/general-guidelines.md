@@ -72,12 +72,29 @@ google forms
 - Slang
 
 - We/You
+    - Conversational
+    - Leads to more active language
+    - Release notes
+        - "Fixed"
+        - "versus formatted text"
 
 - Future / Present
+    - Present - Follows the thought process of the user
 
 - Active / Passive
+    - German language - formal language
+
+- Languages - german, russian, english - different rules
+    - Passive / formal for german 
 
 - Imperative
+
+- Must / It is required
+- Want / Need
+
+- "Now you know ..." at the end of a paragraph or page
+
+
 
 - Consistant use of hyphenating nouns (hands on, hands-on), 2-word phrasal verbs (checkout vs check out)
 
@@ -87,7 +104,11 @@ google forms
 
 - Sentences should be simple, straightfoward
 - Sentences should generally have only one idea, purpose, and meaning; but it is acceptable to add implications, such as the importance of the subject, whether it is recommended or not, if it is dangerous, serious, the potential impacts
-
+- Sentence Structure
+    - Same structure throughout
+    - Pattern for sentences ("In this window, on this button, ...")
+    - Tutorials, how-tos
+    
 ### Word-choice
 
 - Word-choice must be simple, well-defined, universally understood, consistent throughout
@@ -95,6 +116,12 @@ google forms
 ### Paragraphs
 
 - Paragraphs should be short and contain a single subject or a single aspect of a larger subject, and it should have a clear beginning and end
+
+- Release notes
+    - What's new
+    - Why ?
+
+- Short Paragraphs, one throught per paragraph
 
 ### Pages
 
