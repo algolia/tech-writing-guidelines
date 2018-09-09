@@ -1,0 +1,42 @@
+- concepts_chapters = sitemap_tree.from_url('doc/guides').get_children
+
+%footer.fill-solstice-blue.footer-landing
+  .footer-container.color-white.m-l-r-auto.p-l-xlarge.p-r-xlarge
+    .spacer80
+    .flex-container.flex-space-around
+      %ul.p-r-xxlarge
+        %li
+          %a.text-regular{:href => '/doc/guides/'}
+            Algolia Concepts
+        .spacer24
+        - concepts_chapters.each do |chapter|
+          %li
+            %a.text-regular{:href => "/#{chapter.get_children[0].get_val.destination_path.gsub('index.html', '')}"}
+              = unslug(chapter.get_url_part)
+      %ul.p-r-xxlarge
+        %li
+          %a.text-regular{:href => '/doc/api-reference/'}
+            API Reference
+        .spacer24
+        - app_data.docs.languages.each do |lang|
+          %li
+            %a.text-regular{:href => "/doc/api-client/#{lang.code}/getting-started/"}
+              = lang.name
+      %ul.p-r-xxlarge
+        %li
+          %a.text-regular{:href => '/doc/api-reference/'}
+            Community Docs
+        .spacer24
+        - app_data.docs.community.each do |community|
+          %li
+            %a.text-regular{:href => community.link}
+              = community.name
+    .spacer80
+  .footer-algolia.fill-cosmos-black.text-center
+    .spacer32
+    = link_to '/' do
+      = image_tag "algolia/algolia-mark-white.svg"
+    .spacer16
+    %p.color-white
+      © Algolia - #{link_to 'Privacy Policy', '/policies/privacy', 'class': 'color-nebula-blue'}
+    .spacer32
