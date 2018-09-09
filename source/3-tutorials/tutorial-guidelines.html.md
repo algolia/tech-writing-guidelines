@@ -1,3 +1,7 @@
+---
+title: Tutorials Writing Guidelines
+---
+
 # Tutorial Writing Guidelines
 
 ## Structure
