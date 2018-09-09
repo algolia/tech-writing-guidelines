@@ -13,7 +13,19 @@ As you write, consider the following:
 + Is the markup clean?
 + Does this work well on devices with accessibility features?
 
-### Content structure creates communication
+## ARIA and alternative text guidelines
+
+We should definitely have rules for this.
+
+## Guidelines for using images
+
+Coming soon.
+
+## Guidelines for using videos
+
+Coming soon.
+
+## Content structure creates communication
 
 Use heading levels to communicate the hierarchy of content. Emphasize important points both visually and stylistically. Use lists and tables to demonstrate a relationship between concepts. Provide summaries for tables and use informative, concise column headings.
 
