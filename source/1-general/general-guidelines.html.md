@@ -142,4 +142,30 @@ google forms
 - One Page
 - Scrolling, infinite scrolling
 
+## Kinds of Pages
+
+### Release Notes
+- Very Formatted, structured - for the purpose 
+
+### How-To
+- 
+
+### References
+- 
+
+
+### Navigation Pages
+- 
+
+### Wiki Pages
+- 
+
+### Single Subject - what, why, when, how-To
+- 
+
+### Multiple Subjects - what, why, when, how-To
+- 
+
+### Tutorials
+- See seperate doc
 
