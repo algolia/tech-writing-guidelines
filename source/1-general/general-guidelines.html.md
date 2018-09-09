@@ -36,7 +36,10 @@ On-boarding Documentation
 
 - Follow company's branding
 
-- Number of characters per line (66 characters) - see typewolf website
+- Some considerations
+    - Number of characters per line (66 characters) - see typewolf website
+    - Wikipedia has too much content on its page, so nobody goes until the end
+    - Line spacing to add breathing space
 
 - Bullet points
 
@@ -102,8 +105,7 @@ google forms
 - "Now you know ..." at the end of a paragraph or page
 
 - Tone
-    - rust
-    - fff
+    - Trust
     - frustrated users - jokes are mean
     - 
     
@@ -139,6 +141,8 @@ google forms
 ### Pages
 
 "Every page is page one", Author: Mark Baker
+
+Page design an include columns - 2-columns on the same page
 
 - Should be self-contained
 - Should be focused on one purpose - to treat a full subject, to teach someone how to do something, explain a concept
