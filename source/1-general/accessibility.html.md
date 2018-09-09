@@ -1,3 +1,7 @@
+---
+title: Accessibility
+---
+
 # Accessibility
 
 This resource is intended to help creators develop accessible products and content, however it is far from the only guideline. When in doubt, refer to the standards set by [W3C](http://www.w3.org/standards/webdesign/accessibility).
