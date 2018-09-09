@@ -6,6 +6,8 @@ title: Tutorials Writing Guidelines
 
 ## Structure
 
+## General writing guidelines
+
 ## Assumptions, Prerequisites & Knowledge level
 
 ## Code
