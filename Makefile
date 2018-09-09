@@ -1,7 +1,7 @@
 all: install serve
 
 serve:
-	bundle exec foreman start
+	bundle exec middleman start
 
 install:
 	bundle install
