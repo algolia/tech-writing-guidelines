@@ -35,7 +35,11 @@ Coming soon.
 
 ## Guidelines for using videos
 
-Coming soon.
+Like images, all content should be understood without videos. Videos should be used to enhance knowledge, rather than replace written content.
+
+### Captions and transcripts
+
+How to caption and add transcripts
 
 ## Content structure creates communication
 
