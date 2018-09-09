@@ -1,5 +1,8 @@
 # General Writing Guidelines
 
+## Static vs Interactive Document
+- Hide / Show
+
 ## User Testing
 
 - Google analytics
