@@ -137,3 +137,7 @@ google forms
 - Should not do too much
 - Should know its purpose, stick to it, and should know the limits of how much to include and whether the page needs to be divided into 2 or more
 
+- One Page
+- Scrolling, infinite scrolling
+
+
