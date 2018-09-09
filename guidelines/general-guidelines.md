@@ -32,6 +32,20 @@ On-boarding Documentation
 ## UI Design
 - Collaboration between Tech Writers and Designers
 
+- Bullet points
+
+  - periods or not?
+
+- hyperlink styling
+
+  - punctuation as part of the link or not?
+
+- Bolding
+  - For what purpose
+  - should be consistant
+  - punctionation inside?
+
+
 ## Change Requests, Doc Updates
 
 Github
@@ -69,25 +83,6 @@ google forms
 
 - Consistence use of login logon log on longged in or on
 
-## Styling Guidelines
-
-- Examples
-
-  - All pages with examples should start with the most simple before getting more complex
-
-- Bullet points
-
-  - periods or not?
-
-- hyperlink styling
-
-  - punctuation as part of the link or not?
-
-- Bolding
-  - For what purpose
-  - should be consistant
-  - punctionation inside?
-
 ### Sentences
 
 - Sentences should be simple, straightfoward
@@ -107,12 +102,4 @@ google forms
 - Should be focused on one purpose - to treat a full subject, to teach someone how to do something, explain a concept
 - Should not do too much
 - Should know its purpose, stick to it, and should know the limits of how much to include and whether the page needs to be divided into 2 or more
-
-## Organization of Content
-
-### Not Disjointed
-
-- Content should be well-organized
-- Information should not be scattered across too many different pages
-- A single page should have a clear purpose and achieve that purpose without requiring a user to go elsewhere
 
