@@ -2,39 +2,34 @@
 
 https://algolia-tech-writing-guidelines.netlify.com/
 
-# tech-writing-guidelines
+**NOTE:** Most content at this point are bullet points, to be turned into text.
 
-Tech writing guidelines
+# Tech-writing guidelines - overview
 
-## Overview
+## Reasonable Expectations of Writers *and* Readers
 
-- People using documentation have a right
-  - to find what they neeed
-  - and not to work hard at understanding what they are reading;
-- on the other hand, it's a 2-way street, technical writers can reasonably expect good will on the part of the reader
+- People using documentation have a right to find what they need, easily
+- on the other hand, it's a 2-way street, technical writers can reasonably expect "good will" on the part of the reader
+
+- It's a combination of a certain level of concentration ("good will") by the reader and a well-organized, well-written, and through documentation
 
 - Documentation should communicate
 
-- It's a combination of a certain level of concentration (good will) by the reader and a well-organized, well-written, and through documentation
-
-## What can we reasonably expect (require) from the reader?
-
 - What are the obligations of the reader?
-
 - Good will
 
 - Willingness to (sometimes) read a sentence more than once
 
-  - but this requires that our writing style is easy to read - that the second reading is done only because the reader is reading something they didn't know beforehand, or the subject is inherently complex and requires some thought, or the point being made is so important that the writing indicates that the reader should remember or do this
+  - but this requires that our writing style is easy to read - that the second reading is done only because the reader is reading something they didn't know beforehand, or the subject is inherently complex and requires some thought, or the point being made is so important that rereading is ensuring memorization
 
-- Some hands-on efforts at copying code, seeing how things work
-  - But this requires that we have easy to do tutorials and how-tos
+- Readers should be able to copy code and see how things work
+  - But this requires that we have easy to copy/undersand code snippets, and tutorials and how-tos are well-done
 
 ## Documentation Principles
 
 ### Relevant to every reader
 
-The Docs must be readable / useable by everyone who starts reading / using it.
+The Docs must be readable / useable by everyone
 
 Who comes to the docs?
 
@@ -42,9 +37,10 @@ Who comes to the docs?
 - junior-level beginners to the subject
 - senior-level beginners to the subject
 - experienced with the subject
-- non-anglaphones
-- people in a rush
-- people who have time to read
+- Product managers / Decision makers
+- Stakeholders, people who will own a solution but not necessarily the developer
+- non-anglophones
+- Solo entrepeneur / Developer
 
 ### Complete / thorough
 
@@ -60,8 +56,9 @@ Who comes to the docs?
 
 #### Sentences
 
-- Sentences should be simple, straightfoward
-- Sentences should generally have only one idea, purpose, and meaning; but it is acceptable to add implications, such as the importance of the subject, whether it is recommended or not, if it is dangerous, serious, the potential impacts
+- Sentences should be simple, straightforward
+- Sentences should generally have only one idea, purpose, and meaning. 
+- It is acceptable to add implications to a sentence, such as the importance of the subject, whether it is recommended or not, if it is dangerous, serious, the potential impacts, but to not overload the sentence with too many meanings.
 
 #### Word-choice
 
