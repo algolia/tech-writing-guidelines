@@ -4,9 +4,9 @@
 
 https://algolia-tech-writing-guidelines.netlify.com/
 
-## What you can get from this Guideline
+## What can you get from these guidelines?
 
-### Short overview
+### A Short overview
 
 - People using documentation have a right to find what they need, easily
 - on the other hand, it's a 2-way street, technical writers can reasonably expect "good will" on the part of the reader
