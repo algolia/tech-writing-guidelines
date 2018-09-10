@@ -6,8 +6,6 @@ https://algolia-tech-writing-guidelines.netlify.com/
 
 Tech writing guidelines
 
-<section class="full-toc">
-
 ## Overview
 
 - People using documentation have a right
@@ -18,10 +16,6 @@ Tech writing guidelines
 - Documentation should communicate
 
 - It's a combination of a certain level of concentration (good will) by the reader and a well-organized, well-written, and through documentation
-
-</section>
-
-<section>
 
 ## What can we reasonably expect (require) from the reader?
 
@@ -35,10 +29,6 @@ Tech writing guidelines
 
 - Some hands-on efforts at copying code, seeing how things work
   - But this requires that we have easy to do tutorials and how-tos
-
-</section>
-
-<section class="full-toc">
 
 ## Documentation Principles
 
@@ -90,17 +80,13 @@ Who comes to the docs?
 
 #### Sections
 
-- Should be limited if not removed all together
+- Should be limited if not removed all together - stick with pages that cover a subject well, and hyperlinks + good navigation to complete a subject
 
 ### Not Disjointed
 
 - Content should be well-organized
 - Information should not be scattered across too many different pages
 - A single page should have a clear purpose and achieve that purpose without requiring a user to go elsewhere
-
-</section>
-
-<section>
 
 ## Language guidelines
 
@@ -122,10 +108,6 @@ Who comes to the docs?
 
 - Acronyms
 
-</section>
-
-<section>
-
 ## Styling Guidelines
 
 - Examples
@@ -145,9 +127,6 @@ Who comes to the docs?
   - should be consistant
   - punctionation inside?
 
-</section>
-
-<section>
 
 ## Overall Guidelines
 
@@ -165,10 +144,6 @@ Who comes to the docs?
 
 - Hide/show divs
 
-</section>
-
-<section>
-
 ## Kinds of Pages
 
 ### Navigation Pages
@@ -181,15 +156,7 @@ Who comes to the docs?
 
 ### Tutorials
 
-</section>
-
-<section>
-
 ## Code Blocks - dos and donts
-
-</section>
-
-<section>
 
 ## Imagery / Graphics
 
@@ -202,15 +169,7 @@ Who comes to the docs?
 - Cartoon characters
 - Same look for all graphics
 
-</section>
-
-<section>
-
 ## UI Design
-
-</section>
-
-<section>
 
 ## User Testing
 
@@ -221,25 +180,20 @@ Who comes to the docs?
   - heatmaps, recordings
   - analytics
 
-</section>
-<section>
-
 ## Organizational Flow
-
-</section>
-<section>
 
 ## Reference Pages
 
-</section>
-<section>
-
 ## Exisiting drafts
-
-</section>
-
 [General guidelines](source/drafts/tech-writing-guidelines.md)
 
 [Tutorial writing guidelines](source/drafts/tutorial-writing-guidelines.md)
+  
+  
+## A short background
 
-<section>
+At the 2018 Prague Write The Docs Writing Day, a group of technical writers got together to discuss best practices for writing online documentation. We capitalized on the diversity of the group - from different countries, industry segments, and different readership. Below is our results. 
+
+Note: We cannot tell you how to do your job, nor do we think our results are the best or include all of the best ideas. Excellence should be scalable, and so if there is anything permanently true, it is that the best documentation is capable of improvement.
+
+
